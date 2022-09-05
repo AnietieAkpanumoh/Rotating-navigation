@@ -108,7 +108,7 @@ nav ul li {
     text-transform: uppercase;
     margin: 40px 0;
     transition: transform 0.4s ease-in;
-    transform: translateX(-100);
+    transform: translateX(-100%);
 }
 
 .material-icons {
@@ -117,12 +117,12 @@ nav ul li {
 
 nav ul li + li {
     margin-left: 15px;
-    transform: translateX(-150);
+    transform: translateX(-150%);
 }
 
 nav ul li + li + li {
     margin-left: 30px;
-    transform: translateX(-200);
+    transform: translateX(-200%);
 }
 
 .show-nav + nav li {
