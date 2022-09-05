@@ -60,3 +60,34 @@ body {
     outline: none;
 }
 
+#open {
+    left: 60%;
+}
+
+#close {
+    top: 60%;
+    transform: rotate(90deg);
+    transform-origin: top left;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.content h1 {
+    margin: 0;
+}
+
+.content img {
+    max-width: 100%;
+}
+
+.content small {
+    color: #555;
+    font-style: italic;
+}
+
+.content p {
+    line-height: 1.5;
+    color: #333;
+}
