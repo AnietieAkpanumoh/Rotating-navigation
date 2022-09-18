@@ -21,6 +21,10 @@ body {
     padding: 50px;
 }
 
+.noscroll {
+    overflow: hidden;
+}
+
 .show-nav {
     transform: rotate(-20deg);
 }
@@ -129,3 +133,4 @@ nav ul li + li + li {
     transform: translate(0);
     transition-delay: 0.3s;
 }
+
